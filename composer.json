@@ -1,0 +1,19 @@
+{
+    "name": "verity-code/verity-code",
+    "description": "php vericode",
+    "authors": [
+        {
+            "name": "ml",
+            "email": "1358537355@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VeriCode\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
