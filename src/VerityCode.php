@@ -53,8 +53,8 @@ class VerityCode
             $y=rand(5,10);
             imagestring($image,$fontsize,$x,$y,$fontcontent,$fontcolor);	// 水平地画一行字符串
         }
-        session_start();
-        $_SESSION['code']=$captch_code;
+        session_start(); //开启缓存
+        $_SESSION['code']=$captch_code; //此处为缓存的值code 可修改
         //增加干扰点
         if($config['disturbPoint']){
             for($i=0;$i<$config['pointCount'];$i++){
