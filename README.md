@@ -18,3 +18,10 @@ composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 ```
 composer config -g --unset repos.packagist
 ```
+
+### 请在包地址后面加上
+```
+:dev-master
+composer require verity-code/verity-code:dev-master
+
+```
